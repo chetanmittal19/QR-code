@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* - Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    height: 480px;
+    width: 310px;
+    background-color: white;
+    border-radius: 15px;
+    gap: 15px;
+    padding: 15px;
+    box-shadow: 1px 1px hsl(220, 15%, 55%);
+}
+
+.desc {
+    padding: 11px;
+    text-align: center;
+    gap: 10px;
+}
+
+p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+h3{
+    font-size: 1.3rem;
+    color: hsl(218, 44%, 22%);
+}
